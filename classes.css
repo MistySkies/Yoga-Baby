@@ -1,0 +1,72 @@
+#content #mainpic{
+	width: 66.6%;
+	height: auto;
+	background-image: url(../images/studio.jpg);
+	background-size: 100% 100%;
+	padding-bottom: 380px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 2%;
+	float: left;
+}
+
+#content #rightpic{
+	background-image: url(../images/momKid.jpg);
+	width: 33.3%;
+	height: auto;
+	float: right;
+	background-size: 100% 100%;
+	padding-bottom: 80px;
+	border-radius: 2%;
+}
+
+#rightpic h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 320px;
+}
+
+#mainpic h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+#content .box{
+	display: inline-block;	
+	background-size: 100% 100%;
+	width: 33.3%;
+	height: auto;
+	border-radius: 2%;
+}
+
+#content .box-left{
+	background-image: url(../images/prenatal.jpg);
+}
+
+.boxleft h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 320px;
+}
+
+#content.box-middle{
+	background-image: url(../images/prenatal.jpg);
+}
+
+#content .box-right{
+	background-image: url(../images/prenatal.jpg);
+}
+
+a{
+	text-decoration: none;
+}
+
+h2:hover{
+	text-shadow: 0 3px 3px #469BE7;
+}
