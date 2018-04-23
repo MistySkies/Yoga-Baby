@@ -11,9 +11,14 @@
 
 #content .box{
 	text-align: left;
-	display: inline block;
+	display:inline block;
+	margin:0 auto;
 	width:33.3333%;
 	float:left;
+}
+
+#content .box h2{
+	color: #E27866;
 }
 
 .box-left{
@@ -22,11 +27,12 @@
 
 .box-left p{
 	padding: 1px 1px 1px 3px;
+	background-color: #E27866;
 	border-radius: 8px;
 }
 
 .box-middle{
-	padding: 0px 10px 10px 0px;
+	padding: 10px 10px 10px 0px;
 }
 
 .box-middle h2{
@@ -35,11 +41,13 @@
 
 .box-middle p{
 	padding: 1px 1px 1px 3px;
+	background-color: #E27866;
 	border-radius: 8px;
 }
 
 .box-right{
 	padding: 10px 0px 10px 0px;
+	
 }
 
 .box-right h2{
@@ -49,6 +57,8 @@
 
 .box-right p{
 	padding: 1px 1px 1px 3px;
+	width: 98%;
+	background-color: #E27866;
 	border-radius: 8px;
 }
 
