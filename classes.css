@@ -25,7 +25,7 @@
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	margin-top: 320px;
+	padding-top: 300px;
 }
 
 #mainpic h2{
@@ -35,32 +35,58 @@
 	text-align: center;
 }
 
-#content .box{
-	display: inline-block;	
-	background-size: 100% 100%;
-	width: 33.3%;
-	height: auto;
-	border-radius: 2%;
-}
-
-#content .box-left{
+#img-left{
 	background-image: url(../images/prenatal.jpg);
+	background-size: 100% 100%;
+	float:left;
+	width: 33%;
+	height: auto;
+	border-radius: 1%;
+	display: inline-block;
 }
 
-.boxleft h2{
+#img-left h2{
 	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	margin-top: 320px;
+	padding-top: 150px;
 }
 
-#content.box-middle{
-	background-image: url(../images/prenatal.jpg);
+
+#img-middle{
+	background-image: url(../images/babyGroup.jpg);
+	background-size: 100% 100%;
+	width: 33%;
+	height: auto;
+	border-radius: 1%;
+	display: inline-block;
 }
 
-#content .box-right{
-	background-image: url(../images/prenatal.jpg);
+#img-middle h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 150px;
+}
+
+#img-right{
+	background-image: url(../images/kidPose.jpg);
+	background-size: 100% 100%;
+	float:right;
+	width: 33%;
+	height: auto;
+	border-radius: 1%;
+	display: inline-block;
+}
+
+#img-right h2{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 150px;
 }
 
 a{
@@ -70,3 +96,4 @@ a{
 h2:hover{
 	text-shadow: 0 3px 3px #469BE7;
 }
+
